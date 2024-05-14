@@ -1,0 +1,68 @@
+site_name: Ka Mana Earthshots Webpage
+site_url: https://ka-mana.github.io/KaManaWeb/
+repo_url: https://nicejak.github.io/KaManaWeb/
+
+nav:
+  - Home: 'index.md'
+  - Examples: 'examples.md'
+  - Summer Intensive Workshop: 'summerworkshop.md'
+  - About Us: 'about.md'
+  # - Blog:
+  #   - blog/index.md
+
+theme:
+    name: material
+    logo: img/kamanaicon.png
+    favicon: img/kamanaicon.ico
+    features:
+      - navigation.indexes
+    palette:
+      # Palette toggle for automatic mode
+      - media: "(prefers-color-scheme)"
+        primary: teal
+        accent: green
+        toggle:
+          icon: material/brightness-auto
+          name: Switch to light mode
+
+      # Palette toggle for light mode
+      - media: "(prefers-color-scheme: light)"
+        primary: teal
+        accent: green
+        scheme: default
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+
+      # Palette toggle for dark mode
+      - media: "(prefers-color-scheme: dark)"
+        primary: teal
+        accent: green
+        scheme: slate
+        toggle:
+          icon: material/brightness-4
+          name: Switch to system preference
+
+plugins:
+  - blog
+  - glightbox
+  - social:
+      cards_layout_options:
+        background_image: layouts/background.png
+        background_color: "#B3E07F52"
+        logo: img/kamanaicon.png
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
