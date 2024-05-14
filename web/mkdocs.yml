@@ -1,6 +1,6 @@
 site_name: Ka Mana Earthshots Webpage
-# site_url: https://ka-mana.github.io/KaManaWeb/
-# repo_url: https://nicejak.github.io/KaManaWeb/
+site_url: https://ka-mana.github.io/KaManaWeb/
+repo_url: https://github.com/Ka-Mana/KaManaWeb
 
 nav:
   - Home: 'index.md'
