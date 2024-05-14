@@ -46,11 +46,11 @@ theme:
 plugins:
   - blog
   - glightbox
-  - social:
-      cards_layout_options:
-        background_image: layouts/background.png
-        background_color: "#B3E07F52"
-        logo: img/kamanaicon.png
+  # - social:
+  #     cards_layout_options:
+  #       background_image: layouts/background.png
+  #       background_color: "#B3E07F52"
+  #       logo: img/kamanaicon.png
 
 markdown_extensions:
   - pymdownx.arithmatex:
