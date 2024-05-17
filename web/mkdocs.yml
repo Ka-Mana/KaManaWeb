@@ -44,7 +44,7 @@ theme:
           name: Switch to system preference
 
 plugins:
-  - blog
+  # - blog
   - glightbox
   # - social:
   #     cards_layout_options:
