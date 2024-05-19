@@ -16,19 +16,25 @@ theme:
     favicon: img/kamanaicon.ico
     features:
       - navigation.indexes
+      - navigation.instant
+      - navigation.instant.prefetch
+      - navigation.instant.progress
+      - navigation.tabs
+      - navigation.path
+
     palette:
       # Palette toggle for automatic mode
       - media: "(prefers-color-scheme)"
-        primary: teal
-        accent: green
+        primary: green
+        accent: teal
         toggle:
           icon: material/brightness-auto
           name: Switch to light mode
 
       # Palette toggle for light mode
       - media: "(prefers-color-scheme: light)"
-        primary: teal
-        accent: green
+        primary: green
+        accent: teal
         scheme: default
         toggle:
           icon: material/brightness-7
@@ -36,8 +42,8 @@ theme:
 
       # Palette toggle for dark mode
       - media: "(prefers-color-scheme: dark)"
-        primary: teal
-        accent: green
+        primary: green
+        accent: teal
         scheme: slate
         toggle:
           icon: material/brightness-4
