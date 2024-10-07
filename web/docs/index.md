@@ -10,7 +10,7 @@ hide:
   ![Earthshot](img/PISALE_Earthshot_.png){ width="800" }
 </figure>
 
-# Ka mana o ka īa: Modeling our Energy Future
+# Ka mana o ka lā: Modeling our Energy Future
 The Ka Mana team is a collaboration between three major code groups to address multiple Earthshots climate issues with applied mathematics and computer science. At its core is the general-purpose code [PISALE (Pacific Island Structured adaptive mesh refinement with Arbitrary Lagrangian Eulerian)](https://pisale.bitbucket.io/). It uses numerical techniques to model problems associated with Earthshots goals.
 
 Alongside it is the [AMReX](https://amrex-codes.github.io/amrex/) code, a block-structured adaptive mesh refinement framework with support for hierarchical mesh and particle data with embedded boundaries. The ARMeX capabilities make it an excellent option for coupling with PISALE to model particles. So far, the team has began work coupling AMReX with PISALE. We still have to create and initialize ARMeX particle data containers in PISALE.
