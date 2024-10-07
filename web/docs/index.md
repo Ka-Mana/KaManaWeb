@@ -1,5 +1,5 @@
 ---
-title: Ka mana o ka īa
+title: Ka mana o ka lā
 description: Modeling our energy future
 hide:
   - navigation
