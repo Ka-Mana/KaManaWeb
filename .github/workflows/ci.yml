@@ -28,6 +28,5 @@ jobs:
       - run: |
           pip install mkdocs-material
           pip install mkdocs-glightbox
-      - run: |
-          working-directory: ./web
-          mkdocs gh-deploy --force
+      - working-directory: ./web
+      - run: mkdocs gh-deploy --force
