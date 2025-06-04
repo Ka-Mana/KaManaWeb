@@ -7,7 +7,7 @@ hide:
   - path
 ---
 <figure markdown="span">
-  ![Earthshot](img/PISALE_Earthshot_.png){ width="800" }
+  ![Earthshot](img/KamanaWeb.png){ width="800" }
 </figure>
 
 # Ka mana o ka lā: Modeling our Energy Future
