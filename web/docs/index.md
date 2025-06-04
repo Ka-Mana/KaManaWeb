@@ -6,7 +6,10 @@ hide:
   - toc
   - path
 ---
-<img src="img/KamanaWeb.png" alt="Earthshot" width="800">
+<div align="center">
+  <img src="img/KamanaWeb.png" alt="Earthshot" width="800">
+</div>
+
 
 # Ka mana o ka lā: Modeling our Energy Future
 The Ka Mana team is a collaboration between three major code groups to address multiple Energy issues with applied mathematics and computer science. At its core is the general-purpose code [PISALE (Pacific Island Structured adaptive mesh refinement with Arbitrary Lagrangian Eulerian)](https://pisale.bitbucket.io/). It uses numerical techniques to model problems associated with Energy production.
